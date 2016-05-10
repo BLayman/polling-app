@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Polling App</title>
+<link rel="stylesheet" href="style.css" charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</script>
+  </head>
+  <body>
+    <form>
+<h2>Who is your prefered presidential candidate?</h2>
+<br>
+<div class="row">
+
+<div class="col-sm-3">
+  <img class="thumb" src="http://i2.cdn.turner.com/cnnnext/dam/assets/151023112135-hillary-clinton-benghazi-hand-large-169.jpg"/>
+  <br>
+    <input type="radio" name= "vote" value="Hillary">Hillary Clinton</br>
+</div>
+<div class="col-sm-3">
+  <img class="thumb" src="http://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2015/05/20/102694286-471658664.530x298.jpg?v=1432125185"/>
+  <br>
+  <input type="radio" name= "vote" value="Bernie">Bernie Sanders</br>
+</div>
+<div class="col-sm-3">
+  <img class="thumb" src="http://a.abcnews.go.com/images/Politics/GTY_donald_trump_ml_160304_16x9_992.jpg"/>
+<br>
+  <input type="radio" name= "vote" value="Trump">Donald Trump</br>
+</div>
+<div class="col-sm-3">
+  <img class="thumb" src="http://www.rawstory.com/wp-content/uploads/2015/12/a8-800x430.jpg"/>
+<br>
+  <input type="radio" name= "vote" value="Cruz">Ted Cruz</br>
+</div>
+</div>
+
+</br>
+<div class="button">
+    <input type="Submit" class="btn-primary"value="submit choice"/>
+</div>
+
+    </form>
+    <br>
+<div class="results">
+  <h2><u>Poll Results</u></h2>
+<ul>
+  <li>Hillary: <span class="hill"></span>%</li>
+  <li>Bernie: <span class="bern"></span>%</li>
+  <li>Trump: <span class="trump"></span>%</li>
+  <li>Cruz: <span class="cruz"></span>%</li>
+
+</ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="client.js"></script>
+  </body>
+</html>
